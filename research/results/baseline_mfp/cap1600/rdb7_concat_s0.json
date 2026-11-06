@@ -1,0 +1,11 @@
+{
+ "dataset": "rdb7",
+ "seed": 0,
+ "features": "concat",
+ "n_features": 3756,
+ "mae": 9.992101944840494,
+ "rmse": 13.747278157025608,
+ "val_mae": 9.663101522735321,
+ "iterations": 1592,
+ "seconds": 2137.954516887665
+}

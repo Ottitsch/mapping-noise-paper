@@ -1,0 +1,40 @@
+{
+ "dataset": "cyclo",
+ "n": 5269,
+ "n_aligned": 5269,
+ "n_used": 5269,
+ "n_not_bijective": 0,
+ "cross_element_reactions": 0,
+ "nominal_rate": 0.007962772271001516,
+ "nominal_ci": [
+  0.0065750814787239025,
+  0.009537183376403803
+ ],
+ "effective_rate": 0.002947719251357916,
+ "effective_ci": [
+  0.002490132488601615,
+  0.0034295317944742503
+ ],
+ "reactions_with_any_wrong": 0.031505029417346744,
+ "reactions_with_any_effective": 0.031505029417346744,
+ "mean_per_reaction_effective": 0.0034675812685344537,
+ "centre_share_of_wrong": 0.23593287265547877,
+ "centre_share_of_heavy": 0.2217942570568399,
+ "wrong_per_affected_reaction": 6.102409638554217,
+ "wrong_count_distribution": {
+  "0": 5103,
+  "2": 65,
+  "3": 1,
+  "4": 17,
+  "6": 6,
+  "8": 26,
+  "9": 5,
+  "10": 34,
+  "12": 2,
+  "13": 1,
+  "14": 3,
+  "16": 4,
+  "18": 1,
+  "22": 1
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "dataset": "e2sn2",
+ "seed": 1,
+ "features": "concat",
+ "n_features": 2072,
+ "mae": 2.989242868752382,
+ "rmse": 4.105287724887728,
+ "val_mae": 2.8956552796342643,
+ "iterations": 165,
+ "seconds": 481.4385316371918
+}

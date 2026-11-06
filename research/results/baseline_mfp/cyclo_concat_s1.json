@@ -1,0 +1,11 @@
+{
+ "dataset": "cyclo",
+ "seed": 1,
+ "features": "concat",
+ "n_features": 3706,
+ "mae": 3.3984868408993507,
+ "rmse": 4.956577214522767,
+ "val_mae": 3.050078898591969,
+ "iterations": 819,
+ "seconds": 1045.3291211128235
+}

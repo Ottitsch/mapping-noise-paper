@@ -1,0 +1,33 @@
+{
+ "dataset": "rdb7",
+ "n": 11926,
+ "n_aligned": 11926,
+ "n_used": 11926,
+ "n_not_bijective": 0,
+ "cross_element_reactions": 0,
+ "nominal_rate": 0.0978128078817734,
+ "nominal_ci": [
+  0.09411870464250253,
+  0.10179576466806647
+ ],
+ "effective_rate": 0.09237438423645321,
+ "effective_ci": [
+  0.08856525545092787,
+  0.09581664359974684
+ ],
+ "reactions_with_any_wrong": 0.20417575046117725,
+ "reactions_with_any_effective": 0.20417575046117725,
+ "mean_per_reaction_effective": 0.09245206551512102,
+ "centre_share_of_wrong": 0.7493956486704271,
+ "centre_share_of_heavy": 0.6085385878489327,
+ "wrong_per_affected_reaction": 3.057905544147844,
+ "wrong_count_distribution": {
+  "0": 9491,
+  "2": 1301,
+  "3": 200,
+  "4": 623,
+  "5": 131,
+  "6": 163,
+  "7": 17
+ }
+}

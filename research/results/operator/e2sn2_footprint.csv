@@ -1,0 +1,5 @@
+cond,reactions_touched,changed_rows_per_reaction,changed_edges_per_reaction
+pair:centre,133,1.5037593984962405,4.345864661654136
+pair:spect,133,1.4285714285714286,3.2857142857142856
+pair:mixed,133,1.9699248120300752,6.052631578947368
+within:0.1,128,2.0,4.796875

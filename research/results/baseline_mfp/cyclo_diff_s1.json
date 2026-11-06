@@ -1,0 +1,11 @@
+{
+ "dataset": "cyclo",
+ "seed": 1,
+ "features": "diff",
+ "n_features": 2048,
+ "mae": 3.52513179994606,
+ "rmse": 5.099981479132114,
+ "val_mae": 3.0754339761933798,
+ "iterations": 682,
+ "seconds": 634.8655304908752
+}

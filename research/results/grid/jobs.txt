@@ -1,0 +1,169 @@
+--data rdb7 --split-seed 0 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s0
+--data e2sn2 --split-seed 0 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s0
+--data rdb7 --split-seed 1 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s1
+--data e2sn2 --split-seed 1 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s1
+--data rdb7 --split-seed 2 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s2
+--data e2sn2 --split-seed 2 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s2
+--data rdb7 --split-seed 0 --train-cond explicit --test-conds explicit --epochs 50 --out results/repro/rdb7_explicit_s0
+--data e2sn2 --split-seed 3 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s3
+--data e2sn2 --split-seed 4 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s4
+--data e2sn2 --split-seed 5 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s5
+--data e2sn2 --split-seed 6 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s6
+--data e2sn2 --split-seed 7 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s7
+--data e2sn2 --split-seed 8 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s8
+--data e2sn2 --split-seed 9 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none --epochs 50 --out results/grid/e2sn2/true_s9
+--data e2sn2 --split-seed 0 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s0
+--data e2sn2 --split-seed 1 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s1
+--data e2sn2 --split-seed 2 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s2
+--data e2sn2 --split-seed 3 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s3
+--data e2sn2 --split-seed 4 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s4
+--data e2sn2 --split-seed 5 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s5
+--data e2sn2 --split-seed 6 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s6
+--data e2sn2 --split-seed 7 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s7
+--data e2sn2 --split-seed 8 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s8
+--data e2sn2 --split-seed 9 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.1_s9
+--data e2sn2 --split-seed 0 --train-cond true --test-conds true,within:0.1@10 --epochs 50 --init-offset 100 --out results/grid/e2sn2/truerep_s0
+--data e2sn2 --split-seed 1 --train-cond true --test-conds true,within:0.1@10 --epochs 50 --init-offset 100 --out results/grid/e2sn2/truerep_s1
+--data e2sn2 --split-seed 2 --train-cond true --test-conds true,within:0.1@10 --epochs 50 --init-offset 100 --out results/grid/e2sn2/truerep_s2
+--data e2sn2 --split-seed 3 --train-cond true --test-conds true,within:0.1@10 --epochs 50 --init-offset 100 --out results/grid/e2sn2/truerep_s3
+--data e2sn2 --split-seed 4 --train-cond true --test-conds true,within:0.1@10 --epochs 50 --init-offset 100 --out results/grid/e2sn2/truerep_s4
+--data rdb7 --split-seed 3 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s3
+--data rdb7 --split-seed 4 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s4
+--data rdb7 --split-seed 0 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s0
+--data rdb7 --split-seed 0 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s0
+--data rdb7 --split-seed 1 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s1
+--data rdb7 --split-seed 1 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s1
+--data rdb7 --split-seed 2 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s2
+--data rdb7 --split-seed 2 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s2
+--data rdb7 --split-seed 3 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s3
+--data rdb7 --split-seed 3 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s3
+--data rdb7 --split-seed 4 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s4
+--data rdb7 --split-seed 4 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s4
+--data rdb7 --split-seed 0 --train-cond matched --test-conds true,matched@5,rxnmapper,within:0.1@5 --epochs 50 --out results/grid/rdb7/matched_s0
+--data rdb7 --split-seed 0 --train-cond true --test-conds true,within:0.1@10,rxnmapper,matched@10 --epochs 50 --init-offset 100 --out results/grid/rdb7/truerep_s0
+--data rdb7 --split-seed 1 --train-cond matched --test-conds true,matched@5,rxnmapper,within:0.1@5 --epochs 50 --out results/grid/rdb7/matched_s1
+--data rdb7 --split-seed 1 --train-cond true --test-conds true,within:0.1@10,rxnmapper,matched@10 --epochs 50 --init-offset 100 --out results/grid/rdb7/truerep_s1
+--data rdb7 --split-seed 2 --train-cond matched --test-conds true,matched@5,rxnmapper,within:0.1@5 --epochs 50 --out results/grid/rdb7/matched_s2
+--data rdb7 --split-seed 2 --train-cond true --test-conds true,within:0.1@10,rxnmapper,matched@10 --epochs 50 --init-offset 100 --out results/grid/rdb7/truerep_s2
+--data e2sn2 --split-seed 0 --train-cond within:0.02 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.02_s0
+--data e2sn2 --split-seed 0 --train-cond within:0.05 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.05_s0
+--data e2sn2 --split-seed 0 --train-cond within:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.2_s0
+--data e2sn2 --split-seed 0 --train-cond within:0.4 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.4_s0
+--data e2sn2 --split-seed 0 --train-cond within:1.0 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within1.0_s0
+--data e2sn2 --split-seed 0 --train-cond cross --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,cross@3 --epochs 50 --out results/grid/e2sn2/cross_s0
+--data e2sn2 --split-seed 0 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s0
+--data e2sn2 --split-seed 1 --train-cond within:0.02 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.02_s1
+--data e2sn2 --split-seed 1 --train-cond within:0.05 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.05_s1
+--data e2sn2 --split-seed 1 --train-cond within:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.2_s1
+--data e2sn2 --split-seed 1 --train-cond within:0.4 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.4_s1
+--data e2sn2 --split-seed 1 --train-cond within:1.0 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within1.0_s1
+--data e2sn2 --split-seed 1 --train-cond cross --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,cross@3 --epochs 50 --out results/grid/e2sn2/cross_s1
+--data e2sn2 --split-seed 1 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s1
+--data e2sn2 --split-seed 2 --train-cond within:0.02 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.02_s2
+--data e2sn2 --split-seed 2 --train-cond within:0.05 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.05_s2
+--data e2sn2 --split-seed 2 --train-cond within:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.2_s2
+--data e2sn2 --split-seed 2 --train-cond within:0.4 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within0.4_s2
+--data e2sn2 --split-seed 2 --train-cond within:1.0 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/within1.0_s2
+--data e2sn2 --split-seed 2 --train-cond cross --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,cross@3 --epochs 50 --out results/grid/e2sn2/cross_s2
+--data e2sn2 --split-seed 2 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s2
+--data rdb7 --split-seed 0 --train-cond within:0.02 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.02_s0
+--data rdb7 --split-seed 0 --train-cond within:0.05 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.05_s0
+--data rdb7 --split-seed 0 --train-cond within:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.2_s0
+--data rdb7 --split-seed 0 --train-cond within:0.4 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.4_s0
+--data rdb7 --split-seed 0 --train-cond within:1.0 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within1.0_s0
+--data rdb7 --split-seed 0 --train-cond cross --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,cross@3 --epochs 50 --out results/grid/rdb7/cross_s0
+--data rdb7 --split-seed 0 --train-cond none --test-conds none --epochs 50 --out results/grid/rdb7/none_s0
+--data rdb7 --split-seed 1 --train-cond within:0.02 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.02_s1
+--data rdb7 --split-seed 1 --train-cond within:0.05 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.05_s1
+--data rdb7 --split-seed 1 --train-cond within:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.2_s1
+--data rdb7 --split-seed 1 --train-cond within:0.4 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.4_s1
+--data rdb7 --split-seed 1 --train-cond within:1.0 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within1.0_s1
+--data rdb7 --split-seed 1 --train-cond cross --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,cross@3 --epochs 50 --out results/grid/rdb7/cross_s1
+--data rdb7 --split-seed 1 --train-cond none --test-conds none --epochs 50 --out results/grid/rdb7/none_s1
+--data rdb7 --split-seed 2 --train-cond within:0.02 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.02_s2
+--data rdb7 --split-seed 2 --train-cond within:0.05 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.05_s2
+--data rdb7 --split-seed 2 --train-cond within:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.2_s2
+--data rdb7 --split-seed 2 --train-cond within:0.4 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within0.4_s2
+--data rdb7 --split-seed 2 --train-cond within:1.0 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/within1.0_s2
+--data rdb7 --split-seed 2 --train-cond cross --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,cross@3 --epochs 50 --out results/grid/rdb7/cross_s2
+--data rdb7 --split-seed 2 --train-cond none --test-conds none --epochs 50 --out results/grid/rdb7/none_s2
+--data e2sn2 --split-seed 0 --train-cond aug:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/aug0.1_s0
+--data e2sn2 --split-seed 0 --train-cond aug:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/aug0.2_s0
+--data e2sn2 --split-seed 1 --train-cond aug:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/aug0.1_s1
+--data e2sn2 --split-seed 1 --train-cond aug:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/aug0.2_s1
+--data e2sn2 --split-seed 2 --train-cond aug:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/aug0.1_s2
+--data e2sn2 --split-seed 2 --train-cond aug:0.2 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/e2sn2/aug0.2_s2
+--data rdb7 --split-seed 0 --train-cond aug:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/aug0.1_s0
+--data rdb7 --split-seed 1 --train-cond aug:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/aug0.1_s1
+--data rdb7 --split-seed 2 --train-cond aug:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --out results/grid/rdb7/aug0.1_s2
+--data cyclo --split-seed 0 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s0
+--data cyclo --split-seed 0 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper --epochs 50 --out results/grid/cyclo/within0.1_s0
+--data cyclo --split-seed 0 --train-cond rxnmapper --test-conds true,rxnmapper,within:0.1@5 --epochs 50 --out results/grid/cyclo/rxnmapper_s0
+--data cyclo --split-seed 0 --train-cond none --test-conds none --epochs 50 --out results/grid/cyclo/none_s0
+--data cyclo --split-seed 1 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s1
+--data cyclo --split-seed 1 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper --epochs 50 --out results/grid/cyclo/within0.1_s1
+--data cyclo --split-seed 1 --train-cond rxnmapper --test-conds true,rxnmapper,within:0.1@5 --epochs 50 --out results/grid/cyclo/rxnmapper_s1
+--data cyclo --split-seed 1 --train-cond none --test-conds none --epochs 50 --out results/grid/cyclo/none_s1
+--data cyclo --split-seed 2 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s2
+--data cyclo --split-seed 2 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper --epochs 50 --out results/grid/cyclo/within0.1_s2
+--data cyclo --split-seed 2 --train-cond rxnmapper --test-conds true,rxnmapper,within:0.1@5 --epochs 50 --out results/grid/cyclo/rxnmapper_s2
+--data cyclo --split-seed 2 --train-cond none --test-conds none --epochs 50 --out results/grid/cyclo/none_s2
+--data rdb7 --split-seed 0 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3 --epochs 50 --val-cond true --out results/grid/rdb7/within0.1_valclean_s0
+--data rdb7 --split-seed 1 --train-cond explicit --test-conds explicit --epochs 50 --out results/repro/rdb7_explicit_s1
+--data rdb7 --split-seed 2 --train-cond explicit --test-conds explicit --epochs 50 --out results/repro/rdb7_explicit_s2
+--data e2sn2 --split-seed 0 --train-cond true --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/e2sn2/true_ep100_s0
+--data e2sn2 --split-seed 0 --train-cond within:0.1 --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/e2sn2/within0.1_ep100_s0
+--data e2sn2 --split-seed 1 --train-cond true --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/e2sn2/true_ep100_s1
+--data e2sn2 --split-seed 1 --train-cond within:0.1 --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/e2sn2/within0.1_ep100_s1
+--data e2sn2 --split-seed 2 --train-cond true --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/e2sn2/true_ep100_s2
+--data e2sn2 --split-seed 2 --train-cond within:0.1 --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/e2sn2/within0.1_ep100_s2
+--data rdb7 --split-seed 0 --train-cond true --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/rdb7/true_ep100_s0
+--data rdb7 --split-seed 0 --train-cond within:0.1 --test-conds true,within:0.1@5 --epochs 50 --epochs 100 --out results/grid/rdb7/within0.1_ep100_s0
+--data e2sn2 --split-seed 3 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s3
+--data e2sn2 --split-seed 4 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s4
+--data e2sn2 --split-seed 5 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s5
+--data e2sn2 --split-seed 6 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s6
+--data e2sn2 --split-seed 7 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s7
+--data e2sn2 --split-seed 8 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s8
+--data e2sn2 --split-seed 9 --train-cond none --test-conds none --epochs 50 --out results/grid/e2sn2/none_s9
+--data rdb7 --split-seed 0 --train-cond within:0.6 --test-conds true,within:0.6@3 --epochs 50 --out results/grid/rdb7/within0.6_s0
+--data rdb7 --split-seed 0 --train-cond within:0.8 --test-conds true,within:0.8@3 --epochs 50 --out results/grid/rdb7/within0.8_s0
+--data rdb7 --split-seed 1 --train-cond within:0.6 --test-conds true,within:0.6@3 --epochs 50 --out results/grid/rdb7/within0.6_s1
+--data rdb7 --split-seed 1 --train-cond within:0.8 --test-conds true,within:0.8@3 --epochs 50 --out results/grid/rdb7/within0.8_s1
+--data rdb7 --split-seed 2 --train-cond within:0.6 --test-conds true,within:0.6@3 --epochs 50 --out results/grid/rdb7/within0.6_s2
+--data rdb7 --split-seed 2 --train-cond within:0.8 --test-conds true,within:0.8@3 --epochs 50 --out results/grid/rdb7/within0.8_s2
+--data rdb7 --split-seed 5 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s5
+--data rdb7 --split-seed 5 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s5
+--data rdb7 --split-seed 5 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s5
+--data rdb7 --split-seed 6 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s6
+--data rdb7 --split-seed 6 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s6
+--data rdb7 --split-seed 6 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s6
+--data rdb7 --split-seed 7 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s7
+--data rdb7 --split-seed 7 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s7
+--data rdb7 --split-seed 7 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s7
+--data rdb7 --split-seed 8 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s8
+--data rdb7 --split-seed 8 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s8
+--data rdb7 --split-seed 8 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s8
+--data rdb7 --split-seed 9 --train-cond true --test-conds true,within:0.02@10,within:0.05@10,within:0.1@10,within:0.2@3,within:0.4@3,within:1.0@3,pair:centre@5,pair:spect@5,pair:mixed@5,cross@3,none,rxnmapper,rxnmapper_raw,matched@10 --epochs 50 --out results/grid/rdb7/true_s9
+--data rdb7 --split-seed 9 --train-cond within:0.1 --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/rdb7/within0.1_s9
+--data rdb7 --split-seed 9 --train-cond rxnmapper --test-conds true,rxnmapper,matched@5,within:0.1@5 --epochs 50 --out results/grid/rdb7/rxnmapper_s9
+--data rdb7 --split-seed 0 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s0
+--data rdb7 --split-seed 1 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s1
+--data rdb7 --split-seed 2 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s2
+--data cyclo --split-seed 3 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s3
+--data cyclo --split-seed 4 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s4
+--data cyclo --split-seed 5 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s5
+--data cyclo --split-seed 6 --train-cond true --test-conds true,within:0.02@5,within:0.05@5,within:0.1@5,within:0.2@3,within:0.4@3,within:1.0@3,rxnmapper,matched@5 --epochs 50 --out results/grid/cyclo/true_s6
+--data rdb7 --split-seed 3 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s3
+--data rdb7 --split-seed 4 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s4
+--data rdb7 --split-seed 5 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s5
+--data rdb7 --split-seed 6 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s6
+--data rdb7 --split-seed 7 --train-cond aug:0.1 --test-conds true,within:0.1@3,rxnmapper --epochs 50 --out results/grid/rdb7/aug0.1rx_s7
+--data rdb7 --split-seed 0 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s0
+--data rdb7 --split-seed 1 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s1
+--data rdb7 --split-seed 2 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s2
+--data rdb7 --split-seed 3 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s3
+--data rdb7 --split-seed 4 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s4
+--data rdb7 --split-seed 5 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s5
+--data rdb7 --split-seed 6 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s6
+--data rdb7 --split-seed 7 --train-cond true --test-conds true,within:0.02@3,within:0.05@3,within:0.1@3,within:0.2@3,rxnmapper,matched@3,profile@3 --epochs 50 --out results/grid/rdb7/trueprof_s7

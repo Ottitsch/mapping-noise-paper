@@ -1,0 +1,11 @@
+{
+ "dataset": "rdb7",
+ "seed": 0,
+ "features": "diff",
+ "n_features": 2048,
+ "mae": 10.109318454122361,
+ "rmse": 13.942194206700345,
+ "val_mae": 9.803212583018112,
+ "iterations": 1600,
+ "seconds": 1175.459691286087
+}

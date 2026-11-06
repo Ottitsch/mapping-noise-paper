@@ -1,0 +1,12 @@
+{
+ "rxnmapper": {
+  "share_touched": 0.20417575046117725,
+  "wrong_atoms_share": 0.0978128078817734,
+  "wrong_per_touched": 3.057905544147844
+ },
+ "uniform_0_10": {
+  "share_touched": 0.29993291967130636,
+  "wrong_atoms_share": 0.10007224958949097,
+  "wrong_per_touched": 2.12971764048085
+ }
+}

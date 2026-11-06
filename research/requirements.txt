@@ -1,0 +1,10 @@
+chemprop==2.3.1
+lightning==2.6.6
+matplotlib==3.11.2
+numpy==2.5.4
+pandas==3.1.0
+rdkit==2026.3.6
+scikit-learn==1.9.1
+scipy==1.18.1
+torch==2.15.0
+torchmetrics==1.9.0
